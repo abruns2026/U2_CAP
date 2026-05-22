@@ -1,0 +1,48 @@
+h1{
+  color: #4eb4bc;
+  text-indent: 10px;
+}
+h3{
+  color: #27767c;
+  text-indent: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h2, p {
+  margin: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #459fa1;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: #bbe2e2;
+}
+ul li a.active {
+  background-color: #04AA6D;
+}
+ul {
+  position: sticky;
+  top: 0;
+}
+.gameApp{
+  display: block;
+  margin: 20px auto;
+  width: 30%;
+  height: 50%;
+}
